@@ -24,7 +24,7 @@ margin: 0;
   color: blue;
   width: 50%;
   float: left;
-  border: 3px solid black;
+
   overflow-y:hidden;
 }
 
@@ -41,19 +41,30 @@ div.main h1 {
 
 }
 
+ img {
+
+
+}
+
+div .test img {
+
+}
+
 .mains {
-  border: 3px solid orange;
+
 }
 
 .columns {
 overflow: auto;
 clear: both;
+
+text-align: center;
 }
 
 
 
 .column {
-  width: 33%;
+  width: 24%;
   display: inline-block;
   color: green;
   border: 2px solid grey;
@@ -61,3 +72,18 @@ clear: both;
   height: 300px;
   overflow-y:hidden;
 }
+
+.middle {
+  float: left;
+}
+
+
+/* #nav {
+  height: 120px;
+  width: 100%;
+  background-color: #fcfcfc;
+  padding-top: 0px;
+  padding-left: 0px;
+  position: fixed;
+  top: 0px;
+  box-shadow: 0px 0px 10px 0px #babbbb;
